@@ -28,6 +28,9 @@ button {
     background-image: url('assets/backgrounds/s_image.jpg');
     text-align: center;
 }
+.block2{
+  text-align: center;
+}
 
 
 input {
@@ -54,7 +57,7 @@ textarea {
 sup {
     size: 1px;
 }
-.block4showing {
+.block4hidden {
     display: none;
 }
 .block4bshowing {
