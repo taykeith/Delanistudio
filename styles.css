@@ -28,10 +28,7 @@ button {
     background-image: url('assets/backgrounds/s_image.jpg');
     text-align: center;
 }
-.block5{
-  background-image: url('assets/backgrounds/c_image.jpg');
-  text-align: center;
-}
+
 
 input {
     background-color: rgba(255, 255, 255, 0.377);
@@ -97,4 +94,7 @@ sup {
 .design {
 .design .development .management {
     font-family: 'Gloria Hallelujah', cursive;
+}
+. block5 {
+  background-image: url('assets/backgrounds/c_image');
 }
