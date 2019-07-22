@@ -1,7 +1,7 @@
 # Delanistudio
 
 # AUTHOR. 
-## KEITH MBUGI 
+ KEITH MBUGI 
 
 #Technologies used
 
