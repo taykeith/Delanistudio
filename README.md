@@ -3,7 +3,7 @@
 # AUTHOR. 
  KEITH MBUGI 
 
-####Technologies used
+# Technologies used
 
 • HTML • JS script • css • Bootstrap
 
