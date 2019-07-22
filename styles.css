@@ -11,7 +11,11 @@ body{
     border-collapse: inherit;
     text-align: center;
     table-layout: fixed;
-} td {
+}
+#table{
+    width: auto;
+}
+ td {
     background: url(../img/c_image.jpg);
 }
 button {
