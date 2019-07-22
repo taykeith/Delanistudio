@@ -1,5 +1,6 @@
 body{
-    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
 }
 .block1{
   background-image: url('assets/backgrounds/h_img.jpg');
@@ -10,8 +11,7 @@ body{
     border-collapse: inherit;
     text-align: center;
     table-layout: fixed;
-}
-@@ -47,16 +47,18 @@ td {
+} td {
     background: url(../img/c_image.jpg);
 }
 button {
@@ -44,10 +44,8 @@ input {
     border-radius: 8px;
     border: none;
     outline: none;
-@@ -65,22 +67,18 @@ input {
-textarea {
     width: 350px;
-    height: 200px;
+    height: 40px;
     border: none;
     outline: none;
     border-radius: 20px;
@@ -68,13 +66,7 @@ sup {
 .block4bshowing {
     display: none;
 }
-.block4cshowing {
-.block4showing, .block4bshowing, .block4cshowing {
-    display: none;
-}
-.table {
-@@ -92,14 +90,17 @@ sup {
-}
+
 ::placeholder {
     text-align: center;
     color: rgb(255, 255, 255);
@@ -88,18 +80,16 @@ sup {
 @media (min-width: 200px) {
     div {
         font-size: 17px;
+}
 @media (min-width: 400px) {
     html {
         font-size: 18px;
     }
-}
 .footer {
     font-family: 'Permanent Marker', cursive;
-@@ -108,6 +109,6 @@ sup {
     font-family: 'fantacy', sans-serif;
     font-size: 20px;
 }
-.design {
 .design .development .management {
     font-family: 'Gloria Hallelujah', cursive;
 }
