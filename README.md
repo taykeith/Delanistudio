@@ -9,7 +9,7 @@
 
 #### DESCRIPTION 
 
-#delani studio is an amazing project that have done the technolgy that have html,js,jquery,css and bootstrap
+delani studio is an amazing project that have done the technolgy that have html,js,jquery,css and bootstrap
 
 ## LICENSE 
 
