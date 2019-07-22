@@ -77,14 +77,14 @@ sup {
 #work  {
     size: 40px;
 }
-@media (min-width: 200px) {
+/* @media (min-width: 200px) {
     div {
-        font-size: 17px;
+        font-size: 17px;}
 }
 @media (min-width: 400px) {
     html {
         font-size: 18px;
-    }
+    } */
 .footer {
     font-family: 'Permanent Marker', cursive;
     font-family: 'fantacy', sans-serif;
@@ -92,4 +92,7 @@ sup {
 }
 .design .development .management {
     font-family: 'Gloria Hallelujah', cursive;
+}
+#cas{
+    text-align: center;
 }
