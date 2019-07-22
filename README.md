@@ -5,7 +5,7 @@
 
 # Technologies used
 
-• HTML • JS script • css • Bootstrap .jquery 
+• HTML • JS script • css • Bootstrap • jquery 
 
 #### DESCRIPTION 
 
