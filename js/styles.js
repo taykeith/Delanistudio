@@ -1,35 +1,35 @@
-$(function(){
-    $('block4showing').hide();
+$(document).ready(function(){
+    $("#design,#design-hide").click(function(){
+    $("#design, #design-hide").toggle();
+    });
+    
+    $("#dev,#dev-hide").click(function(){
+      $("#dev, #dev-hide").toggle();
+      });
+    
+      $("#prod,#prod-hide").click(function(){
+        $("#prod, #prod-hide").toggle();
+        prod
+    });
+    
+    $('.portimg').hover(function(){
+        $('.porttext',this).slideToggle('slow');
+     }, function(){
+        $('.porttext',this).slideToggle('slow');
+     });
 
-    $(".block4hidden").click(function() {
-        $(".block4showing").show();
-        $(".block4hidden").hide(500);
-    });
-    $(".block4bhidden").click(function() {
-        $(".block4bshowing").show();
-        $(".block4bhidden").hide(500);
-    });
-    $(".block4chidden").click(function() {
-        $(".block4cshowing").show();
-        $(".block4chidden").hide(500);
-    });
 
-
-    $(".block4showing").click(function() {
-        $(".block4hidden").show();
-        $(".block4showing").hide(500);
+  
+      $("form").submit(function(){
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var message = document.getElementById('textarea').value;
+        if (name !=="" && email !=="" && message !==""){
+          alert("Thank you" + " "+ name + " "+ "we have received your message. Thank you for reaching out to us. ");
+        }else{
+          alert("Insert your name, email and message");
+        }
+        event.preventDefault();
+        
+      });
     });
-    $(".block4bshowing").click(function() {
-        $(".block4bhidden").show();
-        $(".block4bshowing").hide(500);
-    });
-    $(".block4cshowing").click(function() {
-        $(".block4chidden").show();
-        $(".block4cshowing").hide(500);
-    });
-
-    $("#work1").hover(function() {
-        $(this).css("background-color", "grey");
-      
-    });
-});
