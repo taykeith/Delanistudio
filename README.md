@@ -1,15 +1,15 @@
 # Delanistudio
 
 # AUTHOR. 
-## KEITH MBUGI 
+ KEITH MBUGI 
 
-#Technologies used
+# Technologies used
 
-• HTML • JS script • css • Bootstrap
+• HTML • JS script • css • Bootstrap • jquery 
 
 #### DESCRIPTION 
 
-## delani studio is an amazing project that have done the technolgy that have html,js,jquery,css and bootstrap
+delani studio is an amazing project that have done the technolgy that have html,js,jquery,css and bootstrap
 
 ## LICENSE 
 
